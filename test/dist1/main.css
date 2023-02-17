@@ -1,0 +1,19 @@
+:root {
+	font-size: 16px;
+}
+
+#modal {
+	display: none;
+}
+
+#modal.show {
+	display: block;
+}
+
+#modal > .modal-backdrop {
+	opacity: 50%;
+}
+
+#modal > .modal {
+	display: block;
+}

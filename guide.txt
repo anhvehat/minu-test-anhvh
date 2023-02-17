@@ -1,0 +1,11 @@
+
+BÀI TEST VỊ TRÍ BACKEND DEVELOPER - ANHVH
+
+- Sử dụng thư viện express đểr tạo RESST API
+- Dữ liệu Todo lưu vào file /data.json để dễ cài đặt, không sử dụng database
+- Sử dụng thư viện socket.io đẻ cập nhật dữ liệu real-time
+- Phần code chính nằm ở /api
+- Chạy file /app.js (#node app.js hoặc #npm start) để bắt đầu
+- Các API nằm trong đường dẫn Http://localhost/api/todos
+- Truy cập http://localhost/test dđể vào giao diện test
+- Mặc định đang chạy ở port 80, có thể dổi port trong file /app.js

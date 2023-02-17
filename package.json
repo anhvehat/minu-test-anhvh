@@ -1,0 +1,31 @@
+{
+  "name": "minu-test",
+  "version": "1.0.0",
+  "description": "minu-test by anhvh",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config test/build/webpack.dev.conf.js --watch"
+  },
+  "author": "anhvehat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.0",
+    "socket.io-client": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.21.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
