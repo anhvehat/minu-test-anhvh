@@ -70,7 +70,7 @@ module.exports = {
 			updated = item;
 		}
 		writeData(items);
-		return item;
+		return updated;
 	},
 
 	delete: (id) => {
