@@ -338,6 +338,7 @@ var client;
     client = (0,socket_io_client__WEBPACK_IMPORTED_MODULE_0__.connect)('/', {});
     client.on('connect', function () {
       console.log('Connected');
+      _table__WEBPACK_IMPORTED_MODULE_1__["default"].loadAll();
     });
     client.on('create', function (data) {
       _table__WEBPACK_IMPORTED_MODULE_1__["default"].putItem(data);
