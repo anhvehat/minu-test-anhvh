@@ -9,6 +9,7 @@ export default {
 		client = connect('/', {});
 		client.on('connect', () => {
 			console.log('Connected');
+			table.loadAll();
 		});
 		client.on('create', (data) => {
 			table.putItem(data);
